@@ -29,7 +29,7 @@
 
     <!-- An example bean -->
     <bean id="greetingBean" class="org.jboss.as.quickstarts.resteasyspring.GreetingBean">
-        <constructor-arg index="0" type="java.lang.String"  value="Welcome to RESTEasy + Spring," />
+        <constructor-arg index="0" type="java.lang.String"  value="Welcome to RESTEasy + Spring From Team 6," />
     </bean>
 
     <!-- JAX-RS locating resource -->
