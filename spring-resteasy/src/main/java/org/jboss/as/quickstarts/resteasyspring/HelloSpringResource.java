@@ -73,7 +73,7 @@ public class HelloSpringResource {
     
     @GET
     @Path("fhir")
-    @Produces=("application/json")
+    @Produces("application/json")
     public Response sayHello(@QueryParam("name") String name) {
         String greetingMsg = greetingBean.greet("Testing Team 6");
         RestTemplate restTemplate = new RestTemplate();
