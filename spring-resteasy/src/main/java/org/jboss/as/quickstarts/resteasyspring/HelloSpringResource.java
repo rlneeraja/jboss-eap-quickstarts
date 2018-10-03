@@ -71,8 +71,6 @@ public class HelloSpringResource {
     }
     
     
-    
-http://object.datalake.services-dev.cdc.gov/api/1.0/deathonfhir/team6/find?from=0&order=1&size=-1
     @GET
     @Path("fhir")
     @Produces=("application/json")
