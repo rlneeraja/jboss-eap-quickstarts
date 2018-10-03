@@ -65,7 +65,7 @@ public class HelloSpringResource {
     @Path("hello")
     @Produces("text/plain")
     public Response sayHello(@QueryParam("name") String name) {
-        String greetingMsg = greetingBean.greet(name);
+        String greetingMsg = greetingBean.greet("Hi Sam");
         System.out.println("Sending greeing: " + greetingMsg);
         return Response.ok(greetingMsg).build();
     }
