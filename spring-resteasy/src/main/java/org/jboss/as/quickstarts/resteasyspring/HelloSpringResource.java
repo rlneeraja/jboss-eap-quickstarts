@@ -75,7 +75,7 @@ public class HelloSpringResource {
     @GET
     @Path("fhir")
     @Produces("application/json")
-    public Response sayHello(@QueryParam("name") String name) {
+    public Response sayHellofhir(@QueryParam("name") String name) {
         String greetingMsg = greetingBean.greet("Testing Team 6");
         RestTemplate restTemplate = new RestTemplate();
         greetingMsg  = restTemplate.getForObject("http://object.datalake.services-dev.cdc.gov/api/1.0/deathonfhir/team6/find?from=0&order=1&size=-1");   
